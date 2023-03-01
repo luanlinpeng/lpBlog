@@ -1,0 +1,4 @@
+{
+  "extends": ["next/core-web-vitals", "eslint: recommended"]
+  //"eslint: recommended"是官方推荐的校验
+}
