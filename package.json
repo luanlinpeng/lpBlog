@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alicloud/credentials": "^2.2.6",
+    "@alicloud/dysmsapi20170525": "2.0.23",
+    "@alicloud/openapi-client": "^0.4.5",
+    "@alicloud/tea-typescript": "^1.8.0",
+    "@alicloud/tea-util": "^1.4.5",
     "@next/font": "13.1.6",
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
@@ -18,6 +23,7 @@
     "date-fns": "^2.29.3",
     "eslint": "^8.34.0",
     "eslint-config-next": "13.1.6",
+    "fs": "^0.0.1-security",
     "iron-session": "^6.3.1",
     "js-base64": "^3.7.5",
     "md5": "^2.3.0",
@@ -30,7 +36,8 @@
     "reflect-metadata": "^0.1.13",
     "sass": "^1.58.3",
     "typeorm": "^0.3.12",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "webpack": "4.44.0"
   },
   "devDependencies": {
     "@types/md5": "^2.3.2",

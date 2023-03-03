@@ -11,6 +11,7 @@ import Login from 'components/Login';
 import styles from './index.module.scss';
 import { navs } from './config';
 
+
 const Navbar: NextPage = () => {
   // const store = useStore();
   // const { userId, avatar } = store.user.userInfo;
@@ -79,7 +80,7 @@ const Navbar: NextPage = () => {
       <section className={styles.operationArea}>
         <Button onClick={handleGotoEditorPage}>写文章</Button>
 
-        {userId ? (
+        {false ? (
           <>
             <Dropdown overlay={renderDropDownMenu()} placement="bottomLeft">
               <Avatar src={avatar} size={32} />
